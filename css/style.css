@@ -1,0 +1,460 @@
+@charset "utf-8";
+
+h1{
+    margin: 0;
+}
+
+h2 img{
+    width: 40%;
+}
+
+p{
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.pad-2{
+    padding: 2rem;
+}
+
+/* ボタン */
+button{
+    border: none;
+    background: none;
+    padding: 0.5rem;
+}
+
+button img{
+    width: 100%;
+}
+
+/* タイトル */
+.text-center{
+    text-align: center;
+}
+
+.title-area{
+    padding: 2rem 0;
+}
+
+.title h2{
+    padding: 1rem;
+    font-family: "FOT-筑紫B丸ゴシック Std";
+    font-weight: bold;
+}
+
+.sub-title{
+    font-family: "Adobe Handwriting Ernie";
+    font-size: 1.5rem;
+}
+
+/* ヘッダー */
+header{
+    background: url(../images/header-img.png);
+    background-size: cover;
+}
+
+header button{
+   padding-top: 1rem;
+}
+
+.sub-copy{
+    font-size: 2rem;
+}
+
+.header-area{
+    padding: 6rem;
+   
+    /* justify-content: flex-start; */
+}
+
+.header-contents{
+    text-align: center;
+    width: 50%;
+    
+}
+
+.header-copy{
+    padding: 1rem;
+}
+
+.header-copy img{
+    width: 100%;
+    max-width: 600px;
+}
+
+/* こんなことに困っていませんか？ */
+
+.worry h2 img{
+    width: 60%;
+}
+
+.worries-contents{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.worries-img{
+    padding: 0 2rem;
+}
+
+.worries-area{
+    padding-left: 5rem;
+}
+
+.worries-list{
+    display: flex;
+    padding: 0.5rem 0;
+}
+
+.worries-text{
+    padding-left: 1rem;
+}
+
+/* 本気で変わりたい人を育てます */
+
+.concept{
+    background: url(../images/concept-img.png);
+    background-size: cover;
+    color: #fff;
+    text-shadow: 1px 2px 3px #808080;
+}
+
+.concept h2{
+    filter: drop-shadow(1px 2px 3px #808080);
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.concept h2 img{
+   width: 50%;
+}
+
+.concept-text{
+    padding-bottom: 2rem;
+    line-height: 2em;
+    
+}
+
+.concept-details p{
+    font-size: 1.5rem;
+}
+
+/* オンライン講座を選ぶ理由 */
+.solution-boxies{
+    padding-bottom: 4rem;
+}
+
+.solution-box{
+   text-align: center;
+   padding: 0 2rem;
+}
+
+.solution-box img{
+    width: 70%;
+}
+
+.lesson-cap{
+    padding: 1.5rem 0 0.7rem 0;
+    font-weight: bold;
+}
+
+/* すぐに副業を始められるカリキュラム */
+.sidebusiness{
+    background: url(../images/side-img.png);
+    background-size: cover;
+}
+
+.sidebusiness h2 img{
+    width: 60%;
+}
+
+.side-boxies{
+    padding-bottom: 3rem;
+}
+
+.side-box{
+    background: url(../images/point-1.png) no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 327px;
+}
+
+.side-contents{
+    line-height: 2em;
+    font-size: 1.3rem;
+}
+
+.button-area{
+    text-align: center;
+
+}
+
+/* 講座の内容 */
+.lesson-contents h2 img{
+    width: 20%;
+}
+
+.plan-area{
+    text-align: center; 
+    padding-bottom: 3rem;
+}
+
+.plan-area h3{
+    padding-bottom: 0.5rem;
+}
+
+
+.lesson-box{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.lesson-cap{
+    padding: 1rem;
+   font-weight: normal;
+}
+
+.skill-boxies{
+    margin-bottom: 1rem;
+    /* justify-content: center; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-box{
+    background-color:#F3F6F7;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 30%;
+    justify-content: flex-start;
+}
+
+.skill-icon img{
+    padding: 0.5rem;
+}
+
+/* 講座の動画紹介 */
+
+.movie-cap{
+text-align: center;
+padding-bottom: 2rem;
+}
+
+.movie-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.movie-thumb{
+    text-align: center;
+}
+.movie-thumb img{
+    width: 80%;
+}
+
+/* 受講までの流れ */
+.flow{
+    background: url(../images/flow-img.png);
+    background-size: cover;
+}
+
+.flow h2 img{
+    width: 30%;
+}
+
+.flow-boxies{
+    padding-bottom: 3rem;
+}
+
+.step-1{
+    background: url(../images/step-1.png) no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 327px;
+}
+
+.step-2{
+    background: url(../images/step-2.png) no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 327px;
+}
+
+.step-3{
+    background: url(../images/step-3.png) no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 310px;
+}
+
+.flow-contents{
+    line-height: 2em;
+    font-size: 1.3rem;
+}
+
+/* 生徒の声 */
+
+.voice h2 img{
+    width: 20%;
+}
+    
+.voice-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.voice-leftarrow{
+    padding-right:2rem;
+}
+
+.voice-rightarrow{
+    padding-left:2rem;
+}
+    
+.voice-box{
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    background-color:#F3F6F7;
+    border-radius: 10px;
+}
+
+.student{
+    padding: 2rem;
+    text-align: center;
+}
+
+.student-img{
+    padding-bottom: 1rem;
+}
+
+.voice-text{
+    padding: 2rem;
+}
+
+.voice-cap{
+    padding-bottom: 1rem;
+}
+
+/* 学習スケジュール */
+.schedule-box{
+    background-color:#E3F8F6;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.schedule-student{
+    display: flex;
+    align-items: center;
+}
+
+.schedule-img{
+    padding: 1rem;
+}
+
+.schedule-text{
+    text-align: left;
+}
+
+.week{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: space-between;
+    padding: 0 1rem;
+    /* height: 400px; */
+}
+
+.day{
+    display: flex;
+    padding: 1rem 1rem 1rem 0;
+}
+
+.day-img{
+    padding-right: 1rem;
+}
+
+/* バナー・LP作品集 */
+.example-boxies{
+    justify-content: center;
+}
+
+.example-box{
+    flex-basis: 30%;
+}
+
+.example-box img{
+    padding: 2rem;
+    width: 100%;
+}
+
+/* 講師紹介 */
+
+.instructor h2 img{
+    width: 20%;
+}
+    
+.instructor-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+    
+.instructor-box{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    /* background-color:#F3F6F7; */
+    border-radius: 10px;
+}
+
+.instructor{
+    padding: 2rem;
+    /* text-align: center; */
+}
+
+.instructor-left{
+    text-align: center;
+}
+
+.instructor-img{
+    padding-bottom: 1rem;
+}
+
+.instructor-text{
+    padding: 2rem;
+}
+
+/* よくあるご質問 */
+.q-and-a{
+    background: url(../images/q-and-a-bk.png);
+    background-size: cover;
+}
